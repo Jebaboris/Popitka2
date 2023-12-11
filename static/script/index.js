@@ -5,7 +5,7 @@ btns.forEach((b)=>{
     });
 });
 function render(name){
-    name='/templates/' + name + '.html';
+    name=name + '.html';
     $(function(){
         $("#load").load(name); 
         });    
